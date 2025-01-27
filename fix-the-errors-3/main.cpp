@@ -1,6 +1,6 @@
 //
-// Name
-// Date
+// Seamus Lally
+// 1/26/2025
 // Fix the Errors #3 Programming Project
 // COSC 1030
 //
