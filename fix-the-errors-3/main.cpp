@@ -17,6 +17,7 @@ int main()
 
 	float firstNumber;
 	float secondNumber;
+	float temp; // adding a temp variable
 
 	// Prompt user to enter the first number.
 	cout << "Enter the first number" << endl;
@@ -33,7 +34,7 @@ int main()
 		<< " and " << secondNumber << endl;
 
 	// Now we will swap the values.
-	firstNumber = secondNumber; secondNumber = firstNumber;
+	temp = secondNumber; secondNumber = firstNumber; firstNumber = temp;
 
 	// Output the values.
 	cout << "After swapping, the values of the two numbers are "
