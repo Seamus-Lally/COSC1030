@@ -9,12 +9,11 @@
 using namespace std;
 
 int main(){
-    //declaring variables
-    double seaLevel;
+    //declaring variable
     double raiseLevel = 1.5;
      
      //printing out the levels after 5, 7, and 10 years
-    cout << "After 5 years the sea level will rise " << seaLevel + (raiseLevel * 5) << " millmeters." << endl;
-    cout << "After 7 years the sea level will rise " << seaLevel + (raiseLevel * 7) << " millmeters." << endl;
-    cout << "After 10 years the sea level will rise " << seaLevel + (raiseLevel * 10) << " millmeters." << endl;
+    cout << "After 5 years the sea level will rise " <<  raiseLevel * 5 << " millmeters." << endl;
+    cout << "After 7 years the sea level will rise " << raiseLevel * 7 << " millmeters." << endl;
+    cout << "After 10 years the sea level will rise " << raiseLevel * 10 << " millmeters." << endl;
 }
