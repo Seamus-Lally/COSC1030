@@ -5,6 +5,7 @@
 // COSC 1030
 //
 #include <iostream>
+#include <iomanip>
 using namespace std;
 
 //Functions
@@ -36,7 +37,7 @@ int main(){
     }
     
     //displaing info
-    cout << "The average tempature: " << avg(day) << endl;
+    cout << "The average tempature: " << fixed << setprecision(2) << avg(day) << endl;
     cout << "The highest temperature " << day_Temp[least] << endl;
     cout << "The lowest temperature " << day_Temp[most] << endl;
 
