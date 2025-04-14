@@ -1,6 +1,6 @@
 //
-// Name
-// Date
+// Seamus Lally
+// 4/13/2025
 // Pointer Rewrite Programming Project
 // COSC 1030
 //
